@@ -10,6 +10,12 @@
     height: 70px;
     width: 70px;
     margin-left: 5%;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.logoImage:hover {
+    transform: scale(1.1);
 }
 
 .headerLinkContainer {
