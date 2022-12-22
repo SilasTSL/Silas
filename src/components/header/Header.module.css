@@ -1,0 +1,38 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logoImage {
+    height: 70px;
+    width: 70px;
+    margin-left: 5%;
+}
+
+.headerLinkContainer {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+}
+
+.headerLink {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #1468a2;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition-duration: 0.3s;
+}
+
+.headerLink:hover {
+    color: #4bb7e5;
+}
+
+.headerLinkNumber {
+    color: #4bb7e5;
+    margin-right: 8px;
+}
