@@ -1,0 +1,38 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 20%;
+}
+
+.homeIntro {
+    font-size: 2rem;
+    margin-bottom: 0px;;
+}
+
+.homeName {
+    font-family: 'Poppins';
+    font-size: 7rem;
+    color: #74dff6;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.homeSubtitle {
+    margin-top: -10px;
+    color: #4bb7e5;
+    font-size: 1.4rem;
+}
+
+.homeSubtitleDivider {
+    color: #1468a2;
+}
+
+.homeDescription {
+    width: 65%;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    text-align: start;
+}

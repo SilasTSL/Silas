@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@400;700&display=swap');
 
 body {
   margin: 0;
@@ -6,4 +6,5 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1c2143;
+  color: #1468a2;
 }

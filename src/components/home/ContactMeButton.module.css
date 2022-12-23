@@ -1,0 +1,16 @@
+.contactMeButtonContainer {
+    margin-top: 5px;
+    font-size: 1.6rem;
+    border: 2px solid #4bb7e5;
+    color: #4bb7e5;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.contactMeButtonContainer:hover {
+    transform: scale(1.1);
+    color: white;
+    border-color: white;
+}
