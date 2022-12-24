@@ -21,7 +21,7 @@
 }
 
 .homeSubtitle {
-    margin-top: -10px;
+    margin-top: 0px;
     color: #4bb7e5;
     font-size: 1.4rem;
 }
@@ -31,8 +31,9 @@
 }
 
 .homeDescription {
-    width: 65%;
+    width: 55%;
     margin-top: 0px;
     font-size: 1.2rem;
     text-align: start;
+    margin-bottom: 20px;
 }
