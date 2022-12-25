@@ -1,6 +1,7 @@
 .introductionContainer {
     display: flex;
     flex-direction: column;
+    width: 100%;
     margin-top: 15%;
 }
 
@@ -12,9 +13,68 @@
 
 .introductionHeaderNumber {
     color: #74dff6;
+    margin-top: 0px;
     margin-right: 20px;
 }
 
 .introductionHeader {
+    margin-top: 0px;
+}
 
+.introductionTopContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 68%;
+    margin-bottom: 0px;
+    height: 590px;
+}
+
+.introductionTopLeftContainer {
+    width: 46%;
+    margin-right: 4%;
+}
+
+.introductionTopRightContainer {
+    width: 46%;
+    margin-left: 4%;
+}
+
+.introductionParagraph {
+    text-align: start;
+    font-size: 1.2rem;
+}
+
+.introductionProfilePicture {
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+    border-right: 3px solid #74dff6;
+    border-top: 3px solid #74dff6;
+    object-fit: cover;
+}
+
+.introductionIconRowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    width: 68%;
+}
+
+.introductionIcon {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.introductionReactIcon {
+    height: 100px;
+    width: 115px;
+}
+
+.highlight {
+    color: #4bb7e5;
 }
