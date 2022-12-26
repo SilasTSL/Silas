@@ -13,9 +13,9 @@ export const Header = () => {
                     <div className={styles.headerLinkNumber}>01.</div>
                     <div>Introduction</div>
                 </a>    
-                <a href="#skills" className={styles.headerLink}>
+                <a href="#experience" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>02.</div>
-                    <div>Skills</div>
+                    <div>Experience</div>
                 </a>    
                 <a href="#portfolio" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>03.</div>
