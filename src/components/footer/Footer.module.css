@@ -1,8 +1,12 @@
 .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     height: 10%;
-    background-color: black;
+    padding: 10px;
 }
 
-h1 {
-    color: white;
+.footerText {
+    margin-right: 30px;
 }
+

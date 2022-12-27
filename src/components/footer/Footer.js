@@ -5,7 +5,7 @@ import React from 'react'
 export const Footer = () => {
     return (
         <div className={styles.footerContainer}>
-            <h1>THIS IS FOOTER</h1>
+            <p className={styles.footerText}>Built with React by Silas Tay.</p>
         </div>
     )
 }
