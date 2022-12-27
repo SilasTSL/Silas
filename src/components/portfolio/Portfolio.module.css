@@ -1,0 +1,106 @@
+.portfolioContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15%;
+    padding-top: 5%;
+}
+
+.portfolioHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+
+.portfolioHeaderNumber {
+    color: #74dff6;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.portfolioHeader {
+    margin-top: 0px;
+}
+
+.portfolioPieceContainer {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    text-align: start;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.portfolioPieceLeftContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 30px;
+    margin-right: -60px;
+}
+
+.portfolioPieceRightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: -60px;
+}
+
+.portfolioPieceName {
+    font-size: 2.3rem;
+    color: #4bb7e5;
+    border: 3px solid #4bb7e5;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: max-content;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    background-color: #1c2143;
+    z-index: 2;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.portfolioPieceName:hover {
+    transform: scale(1.05);
+    color: white;
+    border-color: white;
+}
+
+.portfolioPieceDescriptionContainer {
+    border: 3px solid #4bb7e5;
+    padding: 25px;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: #1c2143;
+    z-index: 1;
+}
+
+.portfolioPieceDescription {
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+.portfolioPieceImageLink {
+    width: 65%;
+}
+
+
+.portfolioPieceImage {
+    width: 100%;
+    object-fit: cover;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+.portfolioPieceImage:hover {
+    transform: scale(1.03);
+}
+
+.highlight {
+    color: #4bb7e5;
+}
