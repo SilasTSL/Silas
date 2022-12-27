@@ -5,6 +5,7 @@ import { ContactMeButton } from '../../components/home/ContactMeButton';
 import { Introduction } from '../../components/introduction/Introduction';
 import { Experience } from '../../components/experience/Experience';
 import { Portfolio } from '../../components/portfolio/Portfolio';
+import { ContactMe } from '../../components/contactme/ContactMe';
 
 export const Home = () => {
     return (
@@ -17,6 +18,7 @@ export const Home = () => {
             <Introduction />
             <Experience />
             <Portfolio />
+            <ContactMe />
         </div>
     )
 }

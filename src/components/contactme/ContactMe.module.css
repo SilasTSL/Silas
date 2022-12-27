@@ -1,0 +1,41 @@
+.contactMeContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5%;
+    padding-top: 5%;
+}
+
+.contactMeHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+
+.contactMeHeaderNumber {
+    color: #74dff6;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+.contactMeHeader {
+    margin-top: 0px;
+}
+
+.contactMeBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.contactMeBodyHeader {
+    font-size: 2.8rem;
+    color: #74dff6;
+}
+
+.contactMeBodySubtext {
+    width: 80%;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
