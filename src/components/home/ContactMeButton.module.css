@@ -3,6 +3,7 @@
     font-size: 1.6rem;
     border: 3px solid #4bb7e5;
     color: #4bb7e5;
+    text-decoration: none;
     padding: 15px;
     border-radius: 15px;
     cursor: pointer;
@@ -14,4 +15,8 @@
     transform: scale(1.1);
     color: white;
     border-color: white;
+}
+
+.contactMeButtonText {
+    margin: 5px;
 }

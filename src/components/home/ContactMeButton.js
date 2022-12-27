@@ -4,8 +4,10 @@ import React from 'react'
 
 export const ContactMeButton = () => {
     return (
-        <div className={styles.contactMeButtonContainer}>
-            Contact Me
-        </div>
+        <a className={styles.contactMeButtonContainer} href="mailto:silastaysl@gmail.com" target="_blank">
+            <p className={styles.contactMeButtonText}>
+                Contact Me
+            </p>
+        </a>
     )
 }

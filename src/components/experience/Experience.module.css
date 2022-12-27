@@ -41,6 +41,24 @@
     margin-bottom: 10px;  
     cursor: pointer; 
     transition-duration: 0.4s;
+    z-index: 1;
+}
+
+.experienceExperienceBodyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 0px;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.show {
+    height: 260px;
+}
+
+.active {
+    opacity: 1;
 }
 
 .experienceExperienceHeader:hover {
@@ -72,6 +90,7 @@
     align-items: center;
     padding: 10px;
     margin-top: 10px;
+    transition: 0.7s ease;
 }
 
 .highlight {
