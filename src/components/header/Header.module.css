@@ -25,6 +25,13 @@
     display: flex;
     flex-direction: row;
     width: 45%;
+    animation: slideIn 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slideIn {
+    0% { margin-top: -100%; }
+    100% { margin-top: 0px; }
 }
 
 .headerLink {

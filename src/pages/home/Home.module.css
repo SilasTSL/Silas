@@ -31,6 +31,11 @@
     margin-top: 10px;
     color: #4bb7e5;
     font-size: 1.7rem;
+    opacity: 0;
+    animation: fadeIn;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 .homeSubtitleDivider {

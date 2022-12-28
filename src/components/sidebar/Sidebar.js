@@ -18,6 +18,7 @@ export const Sidebar = () => {
             <a className={styles.sidebarIcon} href="mailto:silastaysl@gmail.com" target="_blank">
                 <img className={styles.sidebarIconImage} src={require("../../images/email.png")} />
             </a>
+            <div className={styles.sidebarLine}></div>
         </div>
     )
 }

@@ -3,8 +3,15 @@
     flex-direction: column;
     position: fixed;
     margin-left: 6.3%;
-    margin-top: 100px;
+    margin-top: 300px;
     transition: 0.3s;
+    animation: slideIn 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slideIn {
+    0% { margin-top: 100%; }
+    100% { margin-top: 300px; }
 }
 
 .sidebarIconImage {
@@ -16,4 +23,11 @@
 
 .sidebarIconImage:hover {
     transform: scale(1.2);
+}
+
+.sidebarLine {
+    border-left: 2px solid #74dff6;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
