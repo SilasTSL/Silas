@@ -3,6 +3,7 @@ import styles from './Sidebar.module.css';
 import React from 'react'
 
 export const Sidebar = () => {
+
     return (
         <div className={styles.sidebarContainer}>
             <a className={styles.sidebarIcon} href="https://www.instagram.com/silas.tsl/" target="_blank">

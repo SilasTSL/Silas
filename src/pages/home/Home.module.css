@@ -19,6 +19,12 @@
     margin-top: 10px;
     margin-bottom: 0px;
     font-weight: 700;
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .homeSubtitle {
