@@ -26,7 +26,7 @@ export const Introduction = () => {
                     </p>
                 </div>
                 <div className={styles.introductionTopRightContainer}>
-                    <img className={styles.introductionProfilePicture} src={require("../../images/placeholder-profile-pic.jpeg")}/>
+                    <img className={styles.introductionProfilePicture} src={require("../../images/silas.jpeg")}/>
                 </div>
             </div>
             <div className={styles.introductionIconRowContainer}>
