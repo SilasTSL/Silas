@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://silastsl.github.io/",
+  "homepage": "https://silastsl.github.io/Silas",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.8.0",
