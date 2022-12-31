@@ -1,6 +1,7 @@
 .introductionContainer {
     display: flex;
     flex-direction: column;
+    height: fit-content;
     width: 100%;
     margin-top: 5%;
     padding-top: 5%;
@@ -10,7 +11,7 @@
 .introductionHeaderContainer {
     display: flex;
     flex-direction: row;
-    font-size: 1.5rem;
+    font-size: 1.3vw;
 }
 
 .introductionHeaderNumber {
@@ -29,7 +30,7 @@
     justify-content: space-between;
     width: 68%;
     margin-bottom: 0px;
-    height: 590px;
+    height: fit-content;
 }
 
 .introductionTopLeftContainer {
@@ -65,13 +66,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-top: 0px;
+    height: fit-content;
     width: 68%;
 }
 
 .introductionIcon {
-    height: 120px;
-    width: 120px;
+    height: 22%;
+    width: 22%;
     object-fit: cover;
     padding: 20px;
     padding-top: 0px;
@@ -83,8 +86,8 @@
 }
 
 .introductionReactIcon {
-    height: 100px;
-    width: 115px;
+    height: 12%;
+    width: 12%;
 }
 
 .highlight {

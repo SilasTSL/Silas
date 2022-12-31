@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 20px;
+    padding-top: 10px;
     width: 80%;
     padding-left: 20%;
 }
@@ -14,7 +14,7 @@
 
 .homeName {
     font-family: 'Poppins';
-    font-size: 7rem;
+    font-size: 8rem;
     color: #74dff6;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -28,9 +28,10 @@
 }
 
 .homeSubtitle {
+    text-align: start;
     margin-top: 10px;
     color: #4bb7e5;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     opacity: 0;
     animation: fadeIn;
     animation-duration: 2s;

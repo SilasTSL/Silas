@@ -3,20 +3,20 @@
     flex-direction: column;
     position: fixed;
     margin-left: 6.3%;
-    margin-top: 300px;
     transition: 0.3s;
     animation: slideIn 2s;
     animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 @keyframes slideIn {
     0% { margin-top: 100%; }
-    100% { margin-top: 300px; }
+    100% { margin-top: 8%; }
 }
 
 .sidebarIconImage {
-    height: 70px;
-    width: 70px;
+    height: 10vh;
+    width: 10vh;
     cursor: pointer;
     transition-duration: 0.3s;
 }
@@ -27,7 +27,7 @@
 
 .sidebarLine {
     border-left: 2px solid #74dff6;
-    height: 200px;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
 }

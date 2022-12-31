@@ -11,19 +11,19 @@ export const Header = () => {
             <div className={styles.headerLinkContainer}>
                 <a href="#introduction" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>01.</div>
-                    <div>Introduction</div>
+                    <div className={styles.headerLinkName}>Introduction</div>
                 </a>    
                 <a href="#experience" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>02.</div>
-                    <div>Experience</div>
+                    <div className={styles.headerLinkName}>Experience</div>
                 </a>    
                 <a href="#portfolio" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>03.</div>
-                    <div>Portfolio</div>
+                    <div className={styles.headerLinkName}>Portfolio</div>
                 </a>    
                 <a href="#contactme" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>04.</div>
-                    <div>Contact me</div>
+                    <div className={styles.headerLinkName}>Contact me</div>
                 </a>
             </div>
         </div>

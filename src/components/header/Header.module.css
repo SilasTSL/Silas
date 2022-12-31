@@ -11,8 +11,8 @@
 }
 
 .logoImage {
-    height: 70px;
-    width: 70px;
+    height: 5rem;
+    width: 5rem;
     cursor: pointer;
     transition-duration: 0.3s;
 }
@@ -24,7 +24,8 @@
 .headerLinkContainer {
     display: flex;
     flex-direction: row;
-    width: 45%;
+    margin-right: 4%;
+    width: fit-content;
     animation: slideIn 2s;
     animation-timing-function: ease-in-out;
 }
@@ -35,7 +36,9 @@
 }
 
 .headerLink {
+    font-size: 1rem;
     display: flex;
+    width: fit-content;
     flex-direction: row;
     text-decoration: none;
     color: #1468a2;
@@ -51,4 +54,8 @@
 .headerLinkNumber {
     color: #4bb7e5;
     margin-right: 8px;
+}
+
+.headerLinkName {
+    white-space: nowrap;
 }
