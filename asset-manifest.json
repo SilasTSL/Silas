@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Silas/static/css/main.524131f0.css",
-    "main.js": "/Silas/static/js/main.5feba4b0.js",
+    "main.js": "/Silas/static/js/main.0f862593.js",
     "static/js/787.016dd43c.chunk.js": "/Silas/static/js/787.016dd43c.chunk.js",
     "static/media/codingcucumbers-ss.png": "/Silas/static/media/codingcucumbers-ss.413ffe0f7bd2d17aba89.png",
     "static/media/striker-ss.png": "/Silas/static/media/striker-ss.cf03a51440dee70adfb2.png",
@@ -13,11 +13,11 @@
     "static/media/gcp.png": "/Silas/static/media/gcp.fcf505213a8be4034c9f.png",
     "index.html": "/Silas/index.html",
     "main.524131f0.css.map": "/Silas/static/css/main.524131f0.css.map",
-    "main.5feba4b0.js.map": "/Silas/static/js/main.5feba4b0.js.map",
+    "main.0f862593.js.map": "/Silas/static/js/main.0f862593.js.map",
     "787.016dd43c.chunk.js.map": "/Silas/static/js/787.016dd43c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.524131f0.css",
-    "static/js/main.5feba4b0.js"
+    "static/js/main.0f862593.js"
   ]
 }
