@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Silas/static/css/main.4a78c235.css",
-    "main.js": "/Silas/static/js/main.f7761f2e.js",
+    "main.css": "/Silas/static/css/main.373a54c8.css",
+    "main.js": "/Silas/static/js/main.2d008201.js",
     "static/js/787.016dd43c.chunk.js": "/Silas/static/js/787.016dd43c.chunk.js",
     "static/media/codingcucumbers-ss.png": "/Silas/static/media/codingcucumbers-ss.413ffe0f7bd2d17aba89.png",
     "static/media/striker-ss.png": "/Silas/static/media/striker-ss.cf03a51440dee70adfb2.png",
@@ -12,12 +12,12 @@
     "static/media/list-icon.png": "/Silas/static/media/list-icon.22319c7b0695745109d7.png",
     "static/media/gcp.png": "/Silas/static/media/gcp.fcf505213a8be4034c9f.png",
     "index.html": "/Silas/index.html",
-    "main.4a78c235.css.map": "/Silas/static/css/main.4a78c235.css.map",
-    "main.f7761f2e.js.map": "/Silas/static/js/main.f7761f2e.js.map",
+    "main.373a54c8.css.map": "/Silas/static/css/main.373a54c8.css.map",
+    "main.2d008201.js.map": "/Silas/static/js/main.2d008201.js.map",
     "787.016dd43c.chunk.js.map": "/Silas/static/js/787.016dd43c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a78c235.css",
-    "static/js/main.f7761f2e.js"
+    "static/css/main.373a54c8.css",
+    "static/js/main.2d008201.js"
   ]
 }
