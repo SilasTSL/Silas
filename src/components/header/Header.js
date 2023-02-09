@@ -1,18 +1,18 @@
 import styles from './Header.module.css';
-
+import { Link } from 'react-router-dom';
 import React from 'react'
 
 export const Header = () => {
     return (
         <div className={styles.headerContainer}>
-            <a href="#home" className={styles.logoImageContainer}>
+            <Link to="/" className={styles.logoImageContainer}>
                 <img className={styles.logoImage} src={require("../../images/silas-logo.png")} />   
-            </a>
+            </Link>
             <div className={styles.headerLinkContainer}>
-                <a href="#introduction" className={styles.headerLink}>
+                <Link to="#introduction" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>01.</div>
                     <div className={styles.headerLinkName}>Introduction</div>
-                </a>    
+                </Link>    
                 <a href="#experience" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>02.</div>
                     <div className={styles.headerLinkName}>Experience</div>
