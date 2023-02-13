@@ -5,14 +5,14 @@ import React from 'react'
 export const Header = () => {
     return (
         <div className={styles.headerContainer}>
-            <Link to="/" className={styles.logoImageContainer}>
+            <a href="/" className={styles.logoImageContainer}>
                 <img className={styles.logoImage} src={require("../../images/silas-logo.png")} />   
-            </Link>
+            </a>
             <div className={styles.headerLinkContainer}>
-                <Link to="#introduction" className={styles.headerLink}>
+                <a href="#introduction" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>01.</div>
                     <div className={styles.headerLinkName}>Introduction</div>
-                </Link>    
+                </a>    
                 <a href="#experience" className={styles.headerLink}>
                     <div className={styles.headerLinkNumber}>02.</div>
                     <div className={styles.headerLinkName}>Experience</div>

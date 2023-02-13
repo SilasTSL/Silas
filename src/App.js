@@ -9,17 +9,12 @@ import { Sidebar } from './components/sidebar/Sidebar';
 function App() {
 
   return (
-    <Router>
       <div className={styles.App}>
         <Header />
         <Sidebar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/termsandconditions" element={<TermsAndConditions />} />
-        </Routes>
+        <Home />
         <Footer />
       </div>
-    </Router>
   );
 }
 
