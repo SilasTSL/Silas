@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/Silas/static/css/main.75cc922e.css",
-    "main.js": "/Silas/static/js/main.1a51bc93.js",
+    "main.css": "/Silas/static/css/main.537095d3.css",
+    "main.js": "/Silas/static/js/main.2bb2cce2.js",
     "static/js/787.016dd43c.chunk.js": "/Silas/static/js/787.016dd43c.chunk.js",
     "static/media/codingcucumbers-ss.png": "/Silas/static/media/codingcucumbers-ss.413ffe0f7bd2d17aba89.png",
     "static/media/striker-ss.png": "/Silas/static/media/striker-ss.cf03a51440dee70adfb2.png",
+    "static/media/postpresto-ss.png": "/Silas/static/media/postpresto-ss.33f00da5fa438b6e7311.png",
     "static/media/silas.jpeg": "/Silas/static/media/silas.4d6ecf717534aadf44d4.jpeg",
     "static/media/react.png": "/Silas/static/media/react.81ed438b18e24116794d.png",
+    "static/media/intent-ss.png": "/Silas/static/media/intent-ss.451098318965a2b63813.png",
     "static/media/golang.png": "/Silas/static/media/golang.ec6b91b6c42070a43120.png",
     "static/media/silas-logo.png": "/Silas/static/media/silas-logo.967aa102425675f5a1a1.png",
     "static/media/list-icon.png": "/Silas/static/media/list-icon.22319c7b0695745109d7.png",
     "static/media/gcp.png": "/Silas/static/media/gcp.fcf505213a8be4034c9f.png",
     "index.html": "/Silas/index.html",
-    "main.75cc922e.css.map": "/Silas/static/css/main.75cc922e.css.map",
-    "main.1a51bc93.js.map": "/Silas/static/js/main.1a51bc93.js.map",
+    "main.537095d3.css.map": "/Silas/static/css/main.537095d3.css.map",
+    "main.2bb2cce2.js.map": "/Silas/static/js/main.2bb2cce2.js.map",
     "787.016dd43c.chunk.js.map": "/Silas/static/js/787.016dd43c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.75cc922e.css",
-    "static/js/main.1a51bc93.js"
+    "static/css/main.537095d3.css",
+    "static/js/main.2bb2cce2.js"
   ]
 }
