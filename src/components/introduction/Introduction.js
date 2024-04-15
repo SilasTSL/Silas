@@ -19,10 +19,10 @@ export const Introduction = () => {
                         Hi! I'm <span className={styles.highlight}>Silas</span> and I enjoy <span className={styles.highlight}>creating solutions to solve everyday issues</span>. My interest in Computer Science began back in 2017, when I explored many online courses and fell in love with programming.
                     </p>
                     <p className={styles.introductionParagraph}>
-                        Today, I'm a <span className={styles.highlight}>Year 2 Computer Science student</span> in the <span className={styles.highlight}>National University of Singapore</span>, aiming to focus on Software Engineering and Artificial Intelligence.
+                        Today, I'm a <span className={styles.highlight}>Penultimate Year Computer Science student</span> in the <span className={styles.highlight}>National University of Singapore</span>, aiming to focus on Software Engineering and Artificial Intelligence.
                     </p>
                     <p className={styles.introductionParagraph}>
-                        Some of the skills I've gained includes <span className={styles.highlight}>React</span>, <span className={styles.highlight}>Golang</span>, <span className={styles.highlight}>Google Cloud Platform</span> and <span className={styles.highlight}>Docker</span>.
+                        I am particularly passionate about <span className={styles.highlight}>Full-stack Web Development</span> and <span className={styles.highlight}>Machine Learning</span>.
                     </p>
                 </div>
                 <div className={styles.introductionTopRightContainer}>
