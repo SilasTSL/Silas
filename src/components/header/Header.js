@@ -5,7 +5,7 @@ import React from 'react'
 export const Header = () => {
     return (
         <div className={styles.headerContainer}>
-            <a href="/" className={styles.logoImageContainer}>
+            <a href="/Silas" className={styles.logoImageContainer}>
                 <img className={styles.logoImage} src={require("../../images/silas-logo.png")} />   
             </a>
             <div className={styles.headerLinkContainer}>
