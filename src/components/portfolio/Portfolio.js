@@ -15,6 +15,20 @@ export const Portfolio = () => {
             </div>
 
             <div className={styles.portfolioPieceContainer}>
+                <div className={styles.portfolioPieceLeftContainer}>
+                    <a className={styles.portfolioPieceName} href="https://www.harvesteducation.io/" target="_blank">Harvest</a>
+                    <div className={styles.portfolioPieceDescriptionContainer}>
+                        <p className={styles.portfolioPieceDescription}><span className={styles.highlight}>Learning Management System</span> for teachers to help reduce workload and generate deeper insights from their students. Frontend built with <span className={styles.highlight}>Next.js</span>, Backend built with <span className={styles.highlight}>Express</span>, with <span className={styles.highlight}>Retrieval Augmented Generation</span> .</p>
+                        <br></br>
+                        <p className={styles.portfolioPieceDescription}><span className={styles.highlight}>Currently</span> in Development</p>
+                    </div>
+                </div>
+                <a className={styles.portfolioPieceImageLink} href="https://www.harvesteducation.io/" target="_blank">
+                    <img className={styles.portfolioPieceImage} src={require("../../images/harvest-education.png")}/>
+                </a>
+            </div>
+
+            <div className={styles.portfolioPieceContainer}>
                 <a className={styles.portfolioPieceImageLink} href="https://www.postpresto.com/" target="_blank">
                     <img className={styles.portfolioPieceImage} src={require("../../images/postpresto-ss.png")}/>
                 </a>
