@@ -13,7 +13,7 @@ export const Home = () => {
             <h2 className={styles.homeIntro}>Nice to meet you, I'm</h2>
             <h1 className={styles.homeName}>Silas Tay.</h1>
             <h3 className={styles.homeSubtitle}>Computer Scientist <span className={styles.homeSubtitleDivider}>.</span> Software Engineer <span className={styles.homeSubtitleDivider}>.</span> Aspiring Entrepreneur</h3>
-            <p className={styles.homeDescription}>I'm a Penultimate year student studying Computer Science in the National University of Singapore. I am deeply interested in fields such as Software Engineering, Web Development and Artificial Intelligence, while also being an Aspiring Entrepreneur looking to change the lives of people around the globe.</p>
+            <p className={styles.homeDescription}>I'm a Computer Science graduate from the National University of Singapore, currently working as an Applied Machine Learning Engineer at TikTok. I am deeply interested in fields such as Software Engineering, Distributed Systems and Artificial Intelligence, while also being an Aspiring Entrepreneur looking to change the lives of people around the globe.</p>
             <ContactMeButton />
             <Introduction />
             <Experience />
