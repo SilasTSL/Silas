@@ -18,9 +18,9 @@ export const Portfolio = () => {
                 <div className={styles.portfolioPieceLeftContainer}>
                     <a className={styles.portfolioPieceName} href="https://www.harvesteducation.io/" target="_blank">Harvest</a>
                     <div className={styles.portfolioPieceDescriptionContainer}>
-                        <p className={styles.portfolioPieceDescription}><span className={styles.highlight}>Learning Management System</span> for teachers to help reduce workload and generate deeper insights from their students. Frontend built with <span className={styles.highlight}>Next.js</span>, Backend built with <span className={styles.highlight}>Express</span>, with <span className={styles.highlight}>Retrieval Augmented Generation</span> .</p>
+                        <p className={styles.portfolioPieceDescription}><span className={styles.highlight}>AI-powered Learning Management System</span> for teachers to reduce workload and generate deeper insights from their students. Frontend built with <span className={styles.highlight}>Next.js</span>, Backend built with <span className={styles.highlight}>Express</span>, deployed on <span className={styles.highlight}>AWS</span> with <span className={styles.highlight}>Retrieval Augmented Generation</span> and vector search.</p>
                         <br></br>
-                        <p className={styles.portfolioPieceDescription}><span className={styles.highlight}>Currently</span> in Development</p>
+                        <p className={styles.portfolioPieceDescription}>Built in <span className={styles.highlight}>2024</span> - <span className={styles.highlight}>2025</span></p>
                     </div>
                 </div>
                 <a className={styles.portfolioPieceImageLink} href="https://www.harvesteducation.io/" target="_blank">
@@ -37,7 +37,7 @@ export const Portfolio = () => {
                     <div className={styles.portfolioPieceDescriptionContainer}>
                         <p className={styles.portfolioPieceDescription}><span className={styles.highlight}>AI Social Media Manager</span> for Twitter. Frontend built with <span className={styles.highlight}>Next.js</span> and <span className={styles.highlight}>React.js</span>, Backend built with <span className={styles.highlight}>Express</span>.</p>
                         <br></br>
-                        <p className={styles.portfolioPieceDescription}><span className={styles.highlight}>Currently</span> in Development</p>
+                        <p className={styles.portfolioPieceDescription}><span className={styles.highlight}>December 2024</span></p>
                     </div>
                 </div>
             </div>

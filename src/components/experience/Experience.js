@@ -21,52 +21,64 @@ export const Experience = () => {
             </div>
             <div className={styles.experienceBodyContainer}>
                 <div className={styles.experienceExperienceContainer}>
-                    <h3 className={styles.experienceExperienceHeader} onClick={() => toggleDescription(0)}>Versiro</h3>
+                    <h3 className={styles.experienceExperienceHeader} onClick={() => toggleDescription(0)}>TikTok - Data AML Engine Inference (Singapore)</h3>
                     <div className={styles.experienceExperienceBodyContainer}>
-                        <h4 className={styles.experienceExperienceTimeline}><span className={styles.highlight}>Machine Learning and Full-stack Engineer</span> from 2023 Sep - 2024 Jan</h4>
+                        <h4 className={styles.experienceExperienceTimeline}><span className={styles.highlight}>Applied Machine Learning Engineer</span> from Jul 2025 – Present</h4>
                         <div className={styles.experienceExperienceDetails}>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>In-depth analysis and exploration of <span className={styles.highlight}>Sequence-to-Sequence Time Series machine learning models</span></p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Explored and implemented overhaul of data collection processes with <span className={styles.highlight}>Azure Databricks</span> and <span className={styles.highlight}>Azure SQL database</span></p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Optimization of <span className={styles.highlight}>Azure Machine Learning Pipeline</span> for real-time inferencing and training</p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Designed and developed <span className={styles.highlight}>Company’s Landing Page</span> and <span className={styles.highlight}>Customer-Facing Tutorial Hub</span> for company’s API services</p></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className={styles.experienceExperienceContainer}>
-                    <h3 className={styles.experienceExperienceHeader} onClick={() => toggleDescription(1)}>TikTok - Applied Machine Learning Infrastructure (Singapore)</h3>
-                    <div className={styles.experienceExperienceBodyContainer}>
-                        <h4 className={styles.experienceExperienceTimeline}><span className={styles.highlight}>Backend Engineer Intern</span> from 2023 May - August</h4>
-                        <div className={styles.experienceExperienceDetails}>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Assisted with securing data APIs under <span className={styles.highlight}>&nbsp;Project Clover</span></p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Built <span className={styles.highlight}>&nbsp;Flow Capacity Assessment Service</span> to simulate performance of compute clusters under heavy traffic</p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Helped with development of <span className={styles.highlight}>&nbsp;Internal Traffic Monitoring Interface</span></p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Worked daily with <span className={styles.highlight}>&nbsp;Internal Cloud Services</span></p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Built and scaled <span className={styles.highlight}>MLOps Operator system</span> monitoring ~350K Kubernetes pods, automating remediation of ~4K daily anomalies</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Improved system response time by <span className={styles.highlight}>60× (3h → 3min)</span> via caching and pre-scan optimization</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Ideated, architected and deployed <span className={styles.highlight}>Self-Diagnosis system</span>, increasing auto-resolution rate by 20% and reducing on-call load</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Developed new scanners (e.g. <span className={styles.highlight}>pod memory fragmentation scanner</span>), improving anomaly detection coverage</p></div>
                         </div>
                     </div>
                 </div>
 
                 <div className={styles.experienceExperienceContainer}>
-                    <h3 className={styles.experienceExperienceHeader} onClick={() => toggleDescription(2)}>NUS SoC Orbital</h3>
+                    <h3 className={styles.experienceExperienceHeader} onClick={() => toggleDescription(1)}>Harvest Education</h3>
                     <div className={styles.experienceExperienceBodyContainer}>
-                        <h4 className={styles.experienceExperienceTimeline}><span className={styles.highlight}>Project Striker</span> from 2022 May - August</h4>
+                        <h4 className={styles.experienceExperienceTimeline}><span className={styles.highlight}>Co-Founder, Technical Lead</span> from Feb 2024 – Feb 2025</h4>
                         <div className={styles.experienceExperienceDetails}>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Built Striker, a task-managing application driven with data analytics</p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Clean and Seamless UI build with <span className={styles.highlight}>&nbsp;React</span></p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Backend with <span className={styles.highlight}>&nbsp;Golang</span></p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Login Authentication with <span className={styles.highlight}>&nbsp;Firebase</span></p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Built and launched <span className={styles.highlight}>full-stack AI-powered education platform</span> on AWS</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Led <span className={styles.highlight}>0→1 product development</span> with scalable cloud architecture and core AI features (RAG, vector search)</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Conducted user discovery with public school principals, validating product direction based on <span className={styles.highlight}>educator feedback</span></p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Managed and mentored a <span className={styles.highlight}>cross-functional team of 7</span></p></div>
                         </div>
                     </div>
                 </div>
 
                 <div className={styles.experienceExperienceContainer}>
-                    <h3 className={styles.experienceExperienceHeader} onClick={() => toggleDescription(3)}>Ohmyhome</h3>
+                    <h3 className={styles.experienceExperienceHeader} onClick={() => toggleDescription(2)}>TikTok - Online Parameter Server (Singapore)</h3>
                     <div className={styles.experienceExperienceBodyContainer}>
-                        <h4 className={styles.experienceExperienceTimeline}><span className={styles.highlight}>Data Intern</span> from 2021 April - August</h4>
+                        <h4 className={styles.experienceExperienceTimeline}><span className={styles.highlight}>Software Engineer Intern</span> from May 2024 – Aug 2024</h4>
                         <div className={styles.experienceExperienceDetails}>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Built programs to scrape dynamic and static websites (<span className={styles.highlight}>Python</span>, <span className={styles.highlight}>&nbsp;BeautifulSoup</span>, <span className={styles.highlight}>&nbsp;Selenium</span>, <span className={styles.highlight}>&nbsp;Docker</span>)</p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Built robust data collection pipelines to feed company databases (<span className={styles.highlight}>GCP</span>, <span className={styles.highlight}>&nbsp;PostgreSQL</span>)</p></div>
-                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Organised databases to meet client’s requirements</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Built and launched <span className={styles.highlight}>internal full-stack monitoring platform</span>, eliminating manual log inspection</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Reduced debugging time by <span className={styles.highlight}>~5–10×</span> by replacing manual webshell-based workflows with a centralized dashboard</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Designed backend APIs with <span className={styles.highlight}>Redis caching</span>, improving query efficiency and enabling scalable filtering/pagination</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Dashboard adopted by <span className={styles.highlight}>multiple SRE teams</span> and still in production 2+ years later</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.experienceExperienceContainer}>
+                    <h3 className={styles.experienceExperienceHeader} onClick={() => toggleDescription(3)}>Versiro (Trondheim, Norway)</h3>
+                    <div className={styles.experienceExperienceBodyContainer}>
+                        <h4 className={styles.experienceExperienceTimeline}><span className={styles.highlight}>Full-Stack and Machine Learning Engineer</span> from Aug 2023 – Jan 2024</h4>
+                        <div className={styles.experienceExperienceDetails}>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Developed <span className={styles.highlight}>time-series forecasting models</span> for electricity trading at 15-minute granularity over 5+ years</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Migrated data pipelines from blob storage to <span className={styles.highlight}>SQL-based systems</span>, reducing query latency by ~3–5×</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Redesigned company website from Wix to custom <span className={styles.highlight}>React/Next.js</span> application</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Built self-serve <span className={styles.highlight}>Tutorial Hub</span>, saving ~1–3 hours/week of manual support</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.experienceExperienceContainer}>
+                    <h3 className={styles.experienceExperienceHeader} onClick={() => toggleDescription(4)}>ByteDance - Global Recommendations (Singapore)</h3>
+                    <div className={styles.experienceExperienceBodyContainer}>
+                        <h4 className={styles.experienceExperienceTimeline}><span className={styles.highlight}>Back-End Engineer Intern</span> from May 2023 – Jul 2023</h4>
+                        <div className={styles.experienceExperienceDetails}>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Built <span className={styles.highlight}>flow-capacity assessment tool</span> to monitor GPU cluster loads during model traffic changes</p></div>
+                            <div className={styles.experienceExperienceDetailPointer}><img className={styles.experienceListIcon} src={require("../../images/list-icon.png")}/><p>Integrated tool into <span className={styles.highlight}>cross-cluster traffic migration</span>, supporting multi-region rollouts</p></div>
                         </div>
                     </div>
                 </div>
